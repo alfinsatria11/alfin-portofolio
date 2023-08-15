@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@0,200;0,400;0,500;0,700;1,100;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#F2F5F9",
+              yellow: "#FF9C1B",
+            },
+            fontfamily: {
+              pacifico: "Pacifico",
+            },
+          },
+        },
+      };
+    </script>
+    <style type="text/tailwindcss">
+      h1 {
+        font-family: "pacifico", "cursive";
+      }
+
+      p {
+        font-size: "Raleway", "sans-serif";
+      }
+    </style>
+    <title>alfin portofolio</title>
+  </head>
+  <body class="bg-primary flex justify-center">
+    <div class="m-6 lg:mt-12 lg:mx-24 mb-6">
+      <div class="my-6 text-center lg:text-left">
+        <h1 class="text-2xl text-red-600">
+          My<span class="text-yellow">Portofolio</span>
+        </h1>
+      </div>
+      <div class="flex flex-wrap lg:flex-nowrap justify-center mt-7 gap-7">
+        <div
+          class="px-2 bg-white text-center rounded-xl lg:px-6 text-center items-center rounded-2xl"
+        >
+          <img
+            class="mx-auto rounded-xl mt-6"
+            src="assets/alfin satria 2.jpg"
+            alt="foto-profil"
+            width="200"
+            height="200"
+          />
+          <p class="mt-4 text-xl font-bold">Alfin satria Tri Sutrisno</p>
+          <p class="text-slate-400">FullStack Web Developer</p>
+          <div class="flex gap-2 justify-center mt-2">
+            <a href="https://github.com/johndoegrandpa" target="_blank">
+              <button class="bg-primary p-6 rounded-lg">
+                <img src="assets/logo-github.svg" alt="github" />
+              </button>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/alfin-satria-tri-sutrisno-b80b5b1b2/"
+              target="_blank"
+            >
+              <button class="bg-primary p-6 rounded-lg">
+                <img src="assets/logo-linkedin.svg" alt="linkedin" />
+              </button>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <button class="bg-primary p-6 rounded-lg">
+                <img src="assets/logo-instagram.svg" alt="instagram" />
+              </button>
+            </a>
+            <a href="https://twitter.com/?lang=id" target="_blank">
+              <button class="bg-primary p-6 rounded-lg">
+                <img src="assets/logo-twiter.svg" alt="twitter" />
+              </button>
+            </a>
+          </div>
+          <div class="bg-primary mt-6 p-7 rounded-lg mb-14 w-80">
+            <div class="flex items-center text-left">
+              <div class="mr-6">
+                <img src="assets/phone.svg.svg" alt="" />
+              </div>
+              <div class="text-sm">
+                <p class="text-slate-400 text-left">phone</p>
+                <p>081380667066</p>
+              </div>
+            </div>
+            <hr class="h-0.5 mx-auto my-3 bg-slate-200" />
+            <div class="flex items-center text-left">
+              <div class="mr-6">
+                <img src="assets/logo-email.svg.svg" alt="" />
+              </div>
+              <div class="text-sm">
+                <p class="text-slate-400 text-left">Email</p>
+                <p>alfinsatria11@gmail.com</p>
+              </div>
+            </div>
+            <hr class="h-0.5 mx-auto my-3 bg-slate-200" />
+            <div class="flex items-center text-left">
+              <div class="mr-6">
+                <img src="assets/logo-maps.svg" alt="" />
+              </div>
+              <div class="text-sm">
+                <p class="text-slate-400 text-left">Location</p>
+                <p>Unknown</p>
+              </div>
+            </div>
+            <hr class="h-0.5 mx-auto my-3 bg-slate-200" />
+            <div class="flex justify-center items-center">
+              <a
+                href="https://drive.google.com/file/d/16Bn8q-3PrfQz1CrA2qG2_Si3gZBEfBf-/view?usp=drive_link"
+                target="_blank"
+              >
+                <button class="flex mx-auto rounded-3xl bg-yellow px-5 py-3">
+                  <img
+                    class="items-center mr-2 mt-1"
+                    src="assets/logo-download.svg"
+                    alt="logo-download"
+                    width="12"
+                    height="12"
+                    viewbox="12 12 12 12"
+                    fill="none"
+                  />
+                  <p class="text-white items-center">Download Resume</p>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="flex justify-center lg:justify-end">
+            <div
+              class="font-semibold gap-8 lg:gap-10 rounded-2xl border-slate-300 shadow-lg flex px-2 lg:px-20 py-2.5 border-2 lg:mr-16"
+            >
+              <a href="index.html">
+                <button
+                  class="rounded-2xl bg-slate-200 items-center text-center p-5 hover:bg-orange-400"
+                >
+                  <img class="mx-auto" src="assets/logo-home.svg" alt="home" />
+                  <p>Home</p>
+                </button>
+              </a>
+              <a href="resume.html">
+                <button
+                  class="rounded-2xl bg-slate-200 items-center text-center p-5 hover:bg-orange-500"
+                >
+                  <img
+                    class="mx-auto"
+                    src="assets/logo-resume.svg"
+                    alt="Resume"
+                  />
+                  <p>Resume</p>
+                </button>
+              </a>
+              <a href="contact.html">
+                <button
+                  class="rounded-2xl bg-slate-200 items-center text-center p-5 hover:bg-orange-500"
+                >
+                  <img
+                    class="mx-auto"
+                    src="assets/logo-kontak.svg"
+                    alt="kontak"
+                  />
+                  <p>Contact</p>
+                </button>
+              </a>
+            </div>
+          </div>
+          <div
+            class="bg-white items-center rounded-2xl py-7 px-3 lg:px-8 mt-2.5 mx-3 lg:mx-0"
+          >
+            <div class="flex items-center">
+              <h2
+                class="text-base lg:text-3xl xl:text-4xl mr-2 lg:mr-8 font-bold"
+              >
+                CONTACT
+              </h2>
+
+              <hr class="h-1 w-64 bg-amber-600" />
+            </div>
+            <div class="flex flex-wrap gap-7 mt-7">
+              <div class="py-3.5 pl-6 pr-36 rounded-2xl bg-orange-100">
+                <div class="flex">
+                  <img class="mt-1" src="assets/logo-phonecall.svg" alt="" />
+                  <h2 class="ml-2.5 text-2xl font-semibold">Phone:</h2>
+                </div>
+                <h2 class="text-sm font-semibold ml-9">081380667066</h2>
+              </div>
+              <div class="py-3.5 px-16 rounded-2xl bg-primary">
+                <div class="flex">
+                  <img src="assets/logo-email.svg.svg" alt="" />
+                  <h2 class="ml-2.5 text-2xl font-semibold">Email:</h2>
+                </div>
+                <h2 class="text-sm font-semibold ml-9">
+                  alfinsatria11@gmail.com
+                </h2>
+              </div>
+            </div>
+            <div class="flex flex-wrap mt-7">
+              <div
+                class="py-12 px-6 rounded-2xl bg-primary text-base lg:text-lg"
+              >
+                <p>
+                  I am always open to discussing
+                  <span class="font-semibold"
+                    >new projects, opportunities in tech world,
+                    <br />partnerships</span
+                  >
+                  and more so <span class="font-semibold">mentorship.</span>
+                </p>
+                <div class="flex gap-3">
+                  <p class="font-semibold pt-3.5">Name:</p>
+                  <input class="bg-primary pt-2 w-full outline-none" />
+                </div>
+                <hr class="h-0.5 mx-auto my-3 bg-slate-200" />
+                <div class="flex gap-3">
+                  <p class="font-semibold pt-3.5">Email:</p>
+                  <input class="bg-primary pt-2 w-full outline-none" />
+                </div>
+                <hr class="h-0.5 mx-auto my-3 bg-slate-200" />
+                <div class="flex gap-3">
+                  <p class="font-semibold pt-3.5">Message:</p>
+                  <input class="bg-primary pt-2 w-full outline-none" />
+                </div>
+                <hr class="h-0.5 mx-auto my-3 bg-slate-200" />
+                <button
+                  class="bg-white rounded-3xl mt-6 py-2.5 px-8 hover:bg-orange-100 border-2 border-orange-400"
+                >
+                  <p class="text-sm font-bold">Submit</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
